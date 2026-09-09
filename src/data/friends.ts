@@ -22,7 +22,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://www.jiankuapp.com/assets/images/logo.png",
 		desc: "专注旧版、纯净版、定制版软件下载平台",
 		siteurl: "https://www.jiankuapp.com",
-		tags: ["AppStore"],
+		tags: ["资源"],
 	},
 	{
 		id: 2,
@@ -30,7 +30,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://avatars.githubusercontent.com/u/225602409?v=4&s=640",
 		desc: "另一个基于Fuwari的博客主题，带有文档",
 		siteurl: "https://mizuki.mysqil.com",
-		tags: ["Blog", "Theme"],
+		tags: ["博客", "主题"],
 	},
 	{
 		id: 3,
@@ -38,15 +38,15 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
 		desc: "面向内容驱动型网站的Web框架",
 		siteurl: "https://astro.build",
-		tags: ["Framework"],
+		tags: ["框架"],
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Material 3",
 		imgurl: "https://avatars.githubusercontent.com/u/19478152?v=4&s=640",
 		desc: "Material Design 3 — the next generation of Material Design",
 		siteurl: "https://m3.material.io",
-		tags: ["Design"],
+		tags: ["设计"],
 	},
 ];
 
