@@ -1,0 +1,78 @@
+
+> shirone@1.0.0 dev /home/mineleng/blog
+> node scripts/content/sync.mjs && node scripts/icons/generate-local-icons.mjs && node scripts/images/generate-moment-thumbnails.mjs && astro dev
+
+[local-icons] Wrote 189 icons from 5 collections to src/generated/local-icon-collections.ts
+[moment-thumbnails] Reused thumbnail assets for 15 images.
+00:49:23 [vite-plugin-svelte] The custom compilerOptions.cssHash in your svelte config can degrade your DX. See https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/faq.md#why-should-csshash-be-calculated-from-filename-during-dev for more information.
+00:49:23 [vite] connected.
+00:49:25 [types] Generated 1ms
+00:49:25 [vite] connected.
+00:49:25 [content] Syncing content
+00:49:26 [content] Synced content
+ astro  v7.2.6 ready in 8391 ms
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+00:49:26 watching for file changes...
+00:52:25 [404] /cover.webp/ 35ms
+00:52:25 [WARN] [astro-icon] Failed to load icons from "src/icons": ENOENT: no such file or directory, scandir 'src/icons/'
+00:52:31 [404] /cover.webp/ 1ms
+00:52:32 [404] /cover.webp/ 1ms
+00:52:35 [404] /cover.webp/ 1ms
+00:52:38 [200] / 613ms
+00:52:38 [vite] program reload
+00:52:41 [vite] program reload
+00:52:48 [vite] program reload
+00:52:53 [vite] program reload
+00:52:58 [vite] program reload
+00:53:03 [vite] program reload
+00:53:08 [vite] program reload
+00:53:14 [vite] program reload
+00:53:19 [vite] program reload
+00:53:25 [200] /archive/ 26603ms
+00:53:25 [200] /archive/ 26603ms
+00:53:25 [200] /archive/ 16421ms
+00:53:25 [ERROR] Cannot read properties of null (reading 'function')
+  Stack trace:
+    at /home/mineleng/blog/node_modules/.pnpm/svelte@5.56.8/node_modules/svelte/src/internal/server/dev.js:48:3
+    [...] See full stack trace in the browser, or rerun with --verbose.
+00:53:25 [ERROR] Cannot read properties of null (reading 'function')
+  Stack trace:
+    at /home/mineleng/blog/node_modules/.pnpm/svelte@5.56.8/node_modules/svelte/src/internal/server/dev.js:48:3
+    [...] See full stack trace in the browser, or rerun with --verbose.
+00:53:25 [ERROR] Cannot read properties of null (reading 'function')
+  Stack trace:
+    at Module.push_element (/home/mineleng/blog/node_modules/.pnpm/svelte@5.56.8/node_modules/svelte/src/internal/server/dev.js:48:3)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+00:53:25 [vite] program reload
+00:53:31 [vite] program reload
+00:53:35 [vite] program reload
+00:53:39 [vite] program reload
+00:53:45 [vite] program reload
+00:53:45 [watch] /src/components/organisms/CategoryBar.astro?astro&type=style&index=0&lang.css
+00:53:52 [200] / 208ms
+00:53:52 [200] / 208ms
+00:53:52 [vite] program reload
+00:53:57 [vite] program reload
+00:54:03 [vite] program reload
+00:54:09 [vite] program reload
+00:54:14 [vite] program reload
+00:54:18 [vite] program reload
+00:54:23 [vite] program reload
+00:54:29 [200] /archive/ 20171ms
+00:54:29 [200] /archive/ 20171ms
+00:54:29 [200] /archive/ 10257ms
+00:54:29 [ERROR] Cannot read properties of null (reading 'function')
+  Stack trace:
+    at /home/mineleng/blog/node_modules/.pnpm/svelte@5.56.8/node_modules/svelte/src/internal/server/dev.js:48:3
+    [...] See full stack trace in the browser, or rerun with --verbose.
+00:54:29 [ERROR] Cannot read properties of null (reading 'function')
+  Stack trace:
+    at Module.push_element (/home/mineleng/blog/node_modules/.pnpm/svelte@5.56.8/node_modules/svelte/src/internal/server/dev.js:48:3)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+00:54:29 [ERROR] Cannot read properties of null (reading 'function')
+  Stack trace:
+    at /home/mineleng/blog/node_modules/.pnpm/svelte@5.56.8/node_modules/svelte/src/internal/server/dev.js:48:3
+    [...] See full stack trace in the browser, or rerun with --verbose.
+00:54:29 [vite] program reload
+ ELIFECYCLE  Command failed with exit code 143.
