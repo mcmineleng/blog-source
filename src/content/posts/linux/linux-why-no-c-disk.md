@@ -1,3 +1,13 @@
+---
+title: Linux为何没有C盘
+published: 2026-09-10
+description: Linux硬盘管理的方式
+image: ./images/albums/AcgExample/03.webp
+tags: [底层原理]
+category: Linux
+draft: false
+---
+
 # Linux为何没有C盘
 
 > 你是不是也觉得，电脑天生就该有C盘、D盘？其实，这只是Windows给你的错觉。
