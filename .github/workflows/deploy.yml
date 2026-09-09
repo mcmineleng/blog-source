@@ -6,11 +6,11 @@ on:
       - main
     paths:
       - 'src/**'
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
@@ -38,13 +38,13 @@ jobs:
       - name: 创建 CNAME 文件
         run: echo "mcleng.cn" > ./dist/CNAME
 
-      - name: 部署 dist 到 mcmineleng/blog
+      - name: 部署
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: mcmineleng/blog
-          publish_branch: main   # 或 gh-pages
+          publish_branch: main
           publish_dir: ./dist
           user_name: github-actions[bot]
           user_email: github-actions[bot]@users.noreply.github.com
-          commit_message: "chore: update dist from source repo"
+          commit_message: "chore: update dist"
