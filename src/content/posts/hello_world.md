@@ -1,6 +1,6 @@
 ---
 title: 你好，世界！
-published: 2026-09-10
+published: 2026-09-09
 description: Hello,world ! 
 image: ./images/albums/AcgExample/13.webp
 tags: [你好]
