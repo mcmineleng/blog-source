@@ -16,19 +16,27 @@ export interface FriendItem {
 
 // 友情链接数据
 export const friendsData: FriendItem[] = [
-	{
+    	{
 		id: 1,
+		title: "简库资源网",
+		imgurl: "https://www.jiankuapp.com/assets/images/logo.png",
+		desc: "专注旧版、纯净版、定制版软件下载平台",
+		siteurl: "https://www.jiankuapp.com",
+		tags: ["AppStore"],
+	},
+	{
+		id: 2,
 		title: "Mizuki",
 		imgurl: "https://avatars.githubusercontent.com/u/225602409?v=4&s=640",
-		desc: "Another Fuwari-based blog theme with docs",
+		desc: "另一个基于Fuwari的博客主题，带有文档",
 		siteurl: "https://mizuki.mysqil.com",
 		tags: ["Blog", "Theme"],
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Astro",
 		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites",
+		desc: "面向内容驱动型网站的Web框架",
 		siteurl: "https://astro.build",
 		tags: ["Framework"],
 	},
