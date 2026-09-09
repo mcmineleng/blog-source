@@ -70,7 +70,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 		homeText: {
 			// 仅在首页 Banner 中显示，标题与副标题会上下居中排列。
 			enable: true,
-			title: "Shirone",
+			title: "mineleng",
 			subtitle: [
 				"就是个15岁初三牲",
 				"只有一点点本事",

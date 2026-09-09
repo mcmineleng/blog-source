@@ -14,7 +14,7 @@ export const projectsData: ProjectItem[] = [
 		phase: "building",
 		technologies: ["ZShell", "Python"],
 		icon: "fa6-solid:terminal",
-		coverAlt: "Shirone theme homepage preview",
+		coverAlt: ">_",
 		featured: true,
 		repository: "https://github.com/mcmineleng/myzsh",
 		year: "2026",
