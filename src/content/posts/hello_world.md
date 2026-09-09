@@ -1,11 +1,11 @@
 ---
-title: 我的第一篇文章
-published: 2026-08-26
-description: 显示在文章列表和元数据中的简短摘要。
-image: ./cover.webp
-tags: [Astro, 随笔]
-category: 写作
+title: 你好，世界！
+published: 2026-09-10
+description: Hello,world ! 
+image: ./images/albums/AcgExample/13.webp
+tags: [你好]
+category: 推荐
 draft: false
 ---
 
-你好世界
+建站第一篇，做个纪念吧
