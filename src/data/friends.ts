@@ -19,9 +19,9 @@ export const friendsData: FriendItem[] = [
         {
 		id: 1,
 		title: "ML软件市场",
-		imgurl: "assets/images/avatar.jpg",
+		imgurl: "https://app.mcleng.cn/favicon.webp",
 		desc: "站长的软件商店",
-		siteurl: "https://www.jiankuapp.com",
+		siteurl: "https://app.mcleng.cn",
 		tags: ["资源"],
 	},
     	{
